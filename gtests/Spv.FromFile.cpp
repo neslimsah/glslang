@@ -231,7 +231,6 @@ INSTANTIATE_TEST_CASE_P(
         "spv.while-simple.vert",
         // vulkan-specific tests
         "rayQuery.rgen",
-        "rayQuery-decls.rgen",
         "rayQuery-no-cse.rgen",
         "rayQuery-initialize.rgen",
         "rayQuery-allOps.rgen",
@@ -599,6 +598,7 @@ INSTANTIATE_TEST_CASE_P(
         "spv.glFragColor.frag",
         "spv.rankShift.comp",
         "spv.specConst.vert",
+        "spv.specTexture.frag",
         "spv.OVR_multiview.vert",
         "spv.xfbOffsetOnBlockMembersAssignment.vert",
         "spv.xfbOffsetOnStructMembersAssignment.vert",
